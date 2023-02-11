@@ -5,10 +5,138 @@
   box-sizing: border-box;
 }
 
-body,html {
-    height: 100%;
+  @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+
+background: -webkit-linear-gradient(to bottom, rgba(255,182,228,1) 200%, transparent);  /* Chrome 10-25, Safari 5.1-6 */
+  background-size: cover;
+    background-repeat: no-repeat;
+  height: 100%;
+
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border: 0px dashed #0055ff;
+  border-radius: 50px;
+  -webkit-box-shadow:0 0 6px blue inset;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+.group {
+  position: absolute;
+background: linear-gradient(0deg, rgba(0,0,0,0) 10%, blue 40%);
+  width: 100%;
+  height: 100%;
+}
+
+.plate {
+  width:65%;
+     position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  z-index: 60;
+  color: blue;
+font-family: "lores-9-wide", sans-serif;
+font-size: 4vw;
+font-weight: 700;
+font-style: normal;
+text-align: center;
+line-height: 1.2em;
+}
+
+.menu {
+  position: fixed;
+  z-index: 100;
+  font-size: 4vw;
+  margin-left: 30px;
+  margin-top: 30px;
+  color: blue;
+font-family: "lores-9-wide", sans-serif;
+font-weight: 700;
+font-style: normal;
+  filter: drop-shadow(4px 4px 3px yellow)
+}
+
+.menu:hover {
+  position: fixed;
+  z-index: 100;
+  font-size: 4vw;
+  margin-left: 30px;
+  margin-top: 30px;
+  color: yellow;
+font-family: "lores-9-wide", sans-serif;
+font-weight: 700;
+font-style: normal;
+  filter: drop-shadow(4px 4px 3px blue)
+}
+
+  .menu2 {
+      position: fixed;
+  z-index: 100;
+ right: 0px;
+ margin-right: 25px;
+  margin-top: 30px;
+    filter: drop-shadow(5px 5px 5px rgba(249, 255, 74, 0.86))
+  }
+
+
+
+  .menu2:hover {
+      position: fixed;
+  z-index: 100;
+ right: 0px;
+ margin-right: 25px;
+  margin-top: 30px;
+    filter: drop-shadow(5px 5px 5px rgba(249, 255, 74, 0.86))
+  }
+
+.title {
+  display: block;
+  position: relative;
+  top: 60%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 100;
+  font-size: 40pt;
+  color: blue;
+font-family: "lores-9-wide", sans-serif;
+font-weight: 700;
+font-style: normal;
+text-align: center;
+  filter: drop-shadow(5px 5px 5px rgba(249, 255, 74, 0.86))
+}
 
 .random-pane {
   vertical-align: top;
@@ -26,4 +154,123 @@ body,html {
   border: 1px solid black;
   background-color: white;
   display: inline-block;
+}
+
+[class*=parrot] {
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 300;
+}
+
+#id1 {
+  font-size: 2.5vw;
+}
+
+#id2 {
+  width: 80%;
+  font-size: 1.5vw;
+  line-height: 2em;
+  text-align: left;
+
+ color: white;
+}
+
+.group2{
+  width: 100%;
+  position: relative;
+}
+
+.main_text {
+  width: 100%;
+  background-color: blue;
+}
+
+.parrot-1 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/cupcake_1f9c1.png");
+}
+
+.parrot-2 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/lollipop_1f36d.png");
+}
+
+.parrot-3 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/birthday-cake_1f382.png");
+}
+
+.parrot-4 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/party-popper_1f389.png");
+}
+
+.parrot-5 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/candy_1f36c.png");
+}
+
+.parrot-6 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/bear_1f43b.png");
+}
+
+.parrot-7 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/shortcake_1f370.png");
+}
+
+.parrot-8 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/sparkling-heart_1f496.png");
+}
+
+.parrot-9 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/ribbon_1f380.png");
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+
+  .menu {
+    width: 40%;
+  }
+
+  .menu:hover {
+    width: 40%;
+  }
+
+  .menu2 {
+    width: 40%;
+  }
+
+
+.plate {
+  width: 95%;
+     position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  z-index: 60;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.menu {
+    width: 40%;
+  }
+
+  .menu:hover {
+    width: 40%;
+  }
+
+  .menu2 {
+    width: 40%;
+  }
+
+  .plate {
+  width: 95%;
+     position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  z-index: 60;
+}
 }

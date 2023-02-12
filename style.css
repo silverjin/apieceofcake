@@ -1,0 +1,257 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+
+background: -webkit-linear-gradient(to bottom, rgba(255,182,228,1) 200%, transparent);  /* Chrome 10-25, Safari 5.1-6 */
+  background-size: cover;
+    background-repeat: no-repeat;
+  height: 100%;
+
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border: 0px dashed #0055ff;
+  border-radius: 50px;
+  -webkit-box-shadow:0 0 6px blue inset;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+::selection {
+  color: #2168D6;
+  background: #F8F270;
+}
+
+.plate {
+  width: -moz-fit-content;
+  padding-top: 0.2em;
+  padding-bottom: 0.5em;
+ background: linear-gradient(0deg, rgba(0,0,0,0) 20%, #1C60E7 60%);
+  text-align: center;
+    color: blue;
+    
+font-family: "lores-9-wide", sans-serif;
+font-size: 4vw;
+font-weight: 700;
+font-style: normal;
+text-align: center;
+line-height: 1.2em;
+  filter: drop-shadow(0px 0px 3px rgba(0, 85, 255, 0.46));
+}
+
+.plate img {
+  width:65%
+}
+
+.opening {
+  background-color: #4174D9;
+  width: -moz-fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer-text {
+  position: relative;
+  font-family: "Airal", sans-serif;
+    z-index: 100;
+ right: 0px;
+height: 100%;
+  width: 60%;
+    font-size: 1.5vw;
+    line-height: 3vw;
+      color: #ffffff;
+  text-align: left;
+  padding: 3em;
+  word-break: keep-all;
+  float: right;
+  overflow-wrap: normal;
+
+}
+
+.footer-name {
+  font-family: "Airal", sans-serif;
+  display: inline-block;
+    z-index: 100;
+ right: 0px;
+  width: 30%;
+    font-size: 1.5vw;
+    line-height: 3vw;
+      color: #ffffff;
+  text-align: left;
+  padding: 3em;
+  word-break: keep-all;
+  height: 100%;
+  overflow-wrap: normal;
+
+}
+
+.cakes{
+background: black;
+  width: -moz-fit-content;
+  hieght: 100%;
+  padding: 1.2em;
+    position: relative;
+    display: block;
+
+}
+
+.cakes img{
+width: 50%;
+}
+
+.left {
+  position: fixed;
+  z-index: 100;
+  font-size: 4vw;
+  margin-left: 30px;
+  margin-top: 30px;
+  color: blue;
+font-family: "lores-9-wide", sans-serif;
+font-weight: 700;
+font-style: normal;
+  filter: drop-shadow(4px 4px 3px yellow)
+}
+
+.left:hover {
+  position: fixed;
+  z-index: 100;
+  font-size: 4vw;
+  margin-left: 30px;
+  margin-top: 30px;
+  color: yellow;
+font-family: "lores-9-wide", sans-serif;
+font-weight: 700;
+font-style: normal;
+  filter: drop-shadow(4px 4px 3px blue)
+}
+
+  .right {
+      position: fixed;
+  z-index: 100;
+ right: 0px;
+ width: 25%;
+ margin-right: 25px;
+  margin-top: 30px;
+
+  }
+
+ .right img{
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        filter: drop-shadow(5px 5px 5px rgba(249, 255, 74, 0.86))
+
+    }
+
+    .img-top{
+        display: none;   /* Hide top Image */
+        z-index: 600;
+    }
+
+
+  .right:hover .img-top{
+    display: inline;
+    width: 100%;
+      position: absolute;
+ right: 0px;
+ margin-right: 25px;
+  margin-top: 0px;
+    z-index: 600;
+  }
+
+
+  #id1 {
+  font-size: 2.5vw;
+}
+
+
+[class*=parrot] {
+  position: absolute;
+  height: 2.7em;
+  width: 2.7em;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 300;
+}
+
+
+.parrot-1 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/cupcake_1f9c1.png");
+}
+
+.parrot-2 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/lollipop_1f36d.png");
+}
+
+.parrot-3 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/birthday-cake_1f382.png");
+}
+
+.parrot-4 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/party-popper_1f389.png");
+}
+
+.parrot-5 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/candy_1f36c.png");
+}
+
+.parrot-6 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/bear_1f43b.png");
+}
+
+.parrot-7 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/shortcake_1f370.png");
+}
+
+.parrot-8 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/sparkling-heart_1f496.png");
+}
+
+.parrot-9 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/ribbon_1f380.png");
+}
+
+
+@media only screen and (max-width: 768px) {
+  body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+
+}
+
+
+

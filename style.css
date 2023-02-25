@@ -5,14 +5,17 @@
   box-sizing: border-box;
 }
 body {
-
-background: -webkit-linear-gradient(to bottom, rgba(255,182,228,1) 200%, transparent);  /* Chrome 10-25, Safari 5.1-6 */
+   background-image: url("https://i.imgur.com/jfkeXOe.png");
+ background-position: center;
   background-size: cover;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-repeat:   no-repeat;
   height: 100%;
 
   overflow-x: hidden; /* Hide horizontal scrollbar */
 }
+
+
 
 ::-webkit-scrollbar {
   width: 12px;
@@ -55,10 +58,12 @@ background: -webkit-linear-gradient(to bottom, rgba(255,182,228,1) 200%, transpa
 }
 
 .plate {
+  background: linear-gradient(0deg, white 20%, #1C60E7 60%);
+
   width: -moz-fit-content;
   padding-top: 0.2em;
   padding-bottom: 0.5em;
- background: linear-gradient(0deg, rgba(0,0,0,0) 20%, #1C60E7 60%);
+ 
   text-align: center;
     color: blue;
     
@@ -66,7 +71,6 @@ font-family: "lores-9-wide", sans-serif;
 font-size: 4vw;
 font-weight: 700;
 font-style: normal;
-text-align: center;
 line-height: 1.2em;
   filter: drop-shadow(0px 0px 3px rgba(0, 85, 255, 0.46));
 }
@@ -76,7 +80,7 @@ line-height: 1.2em;
 }
 
 .opening {
-  background-color: #4174D9;
+  background: linear-gradient(0deg, rgba(0,0,0,0) 2%, #4174D9 5%);
   width: -moz-fit-content;
   display: flex;
   justify-content: space-between;
@@ -119,18 +123,23 @@ height: 100%;
 }
 
 .cakes{
-background: black;
+
   width: -moz-fit-content;
   hieght: 100%;
   padding: 1.2em;
     position: relative;
-    display: block;
+    text-align: 0.2em;
+float: left;
+text-align: center;
 
 }
 
 .cakes img{
-width: 50%;
+width: 40%;
+text-align: 0.2em;
+
 }
+
 
 .left {
   position: fixed;
@@ -210,23 +219,23 @@ font-style: normal;
 
 
 .parrot-1 {
-  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/cupcake_1f9c1.png");
+  background-image: url("https://i.imgur.com/RhcFx2c.png");
 }
 
 .parrot-2 {
-  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/lollipop_1f36d.png");
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/growing-heart_1f497.png");
 }
 
 .parrot-3 {
-  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/birthday-cake_1f382.png");
+  background-image: url("https://i.imgur.com/KNVq7BA.png");
 }
 
 .parrot-4 {
-  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/party-popper_1f389.png");
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/star_2b50.png");
 }
 
 .parrot-5 {
-  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/candy_1f36c.png");
+  background-image: url("https://i.imgur.com/RlGqJbG.png");
 }
 
 .parrot-6 {
@@ -234,7 +243,7 @@ font-style: normal;
 }
 
 .parrot-7 {
-  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/shortcake_1f370.png");
+  background-image: url("https://i.imgur.com/ihLG0Xl.png");
 }
 
 .parrot-8 {
@@ -242,15 +251,32 @@ font-style: normal;
 }
 
 .parrot-9 {
-  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/ribbon_1f380.png");
+  background-image: url("https://i.imgur.com/5XEeEf5.png");
+}
+
+.parrot-10 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/shortcake_1f370.png");
+}
+
+.parrot-11 {
+  background-image: url("https://em-content.zobj.net/thumbs/120/apple/325/cupcake_1f9c1.png");
 }
 
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 800px) {
   body {
   overflow-x: hidden; /* Hide horizontal scrollbar */
   }
 
+[class*=parrot] {
+  position: absolute;
+  height: 1.8em;
+  width: 1.8em;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  z-index: 300;
+}
 }
 
 

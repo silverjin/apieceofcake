@@ -279,6 +279,7 @@ font-style: normal;
   overflow-x: hidden; /* Hide horizontal scrollbar */
     display: flex;
 flex-direction: column;
+
   }
 
 [class*=parrot] {
@@ -297,7 +298,7 @@ flex-direction: column;
 
 .plate {
     width: -moz-fit-content;
-  padding-top: 0.8em;
+  padding-top: 0.5em;
   padding-bottom: 1em;
   font-size: 6vw;
 

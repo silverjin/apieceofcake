@@ -5,11 +5,7 @@
   box-sizing: border-box;
 }
 body {
-   background-image: url("https://i.imgur.com/jfkeXOe.png");
- background-position: center;
-  background-size: cover;
-    background-attachment: fixed;
-    background-repeat:   no-repeat;
+
   height: 100%;
 
   overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -133,7 +129,11 @@ height: 100%;
 }
 
 .cakes{
-
+   background-image: url("https://i.imgur.com/jfkeXOe.png");
+ background-position: center;
+  background-size: cover;
+    background-attachment: fixed;
+    background-repeat:   no-repeat;
   width: -moz-fit-content;
   hieght: 100%;
   padding: 1.2em;
@@ -291,9 +291,10 @@ flex-direction: column;
 }
 
 .left {
-  font-size: 6vw;
+  font-size: 7vw;
   margin-left: 1em;
 }
+
 .plate {
     width: -moz-fit-content;
   padding-top: 0.8em;
@@ -327,7 +328,7 @@ padding-top: 1em;
 }
 
   #id1 {
-  font-size: 4.5vw;
+  font-size: 5vw;
 }
 
 .footer-name {
@@ -341,16 +342,25 @@ padding-top: 1em;
 }
 
 .left:hover {
-  font-size: 6vw;
+  font-size: 7vw;
 font-family:  hydrophiliaiced;
 
 }
 
 .cakes img{
-width: 75%;
+width: 85%;
 text-align: 0.2em;
 
 }
+
+.cakes{
+   background-image: url("https://i.imgur.com/jfkeXOe.png");
+ background-position: center;
+  background-size: cover;
+    background-attachment: fixed;
+    background-repeat:   no-repeat;
+}
+
 
 }
 

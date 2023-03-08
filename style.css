@@ -283,8 +283,8 @@ flex-direction: column;
 
 [class*=parrot] {
   position: absolute;
-  height: 1.8em;
-  width: 1.8em;
+  height: 1.2em;
+  width: 1.2em;
   background-repeat: no-repeat;
   background-size: 100% auto;
   z-index: 300;
@@ -296,7 +296,7 @@ flex-direction: column;
 }
 .plate {
     width: -moz-fit-content;
-  padding-top: 1em;
+  padding-top: 0.8em;
   padding-bottom: 1em;
   font-size: 6vw;
 
@@ -312,14 +312,14 @@ flex-direction: column;
   width: -moz-fit-content;
     display: flex;
 flex-direction: column;
-padding-top: 1.5em;
+padding-top: 1em;
   justify-content: space-between;
 }
 
 .footer-text {
   width: 100%;
-   font-size: 3vw;
-    line-height: 6vw;
+   font-size: 4vw;
+    line-height: 8vw;
       color: #ffffff;
       margin-top: -1em;
       margin-left: 2em;
@@ -337,7 +337,7 @@ padding-top: 1.5em;
 
 .right {
   width: 30%;
-  margin-right: 1.8em;
+  margin-right: 1em;
 }
 
 .left:hover {
@@ -346,6 +346,11 @@ font-family:  hydrophiliaiced;
 
 }
 
+.cakes img{
+width: 75%;
+text-align: 0.2em;
+
+}
 
 }
 

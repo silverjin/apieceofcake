@@ -62,7 +62,7 @@ body {
   background: #ffffff;
   border: 0px dashed #0055ff;
   border-radius: 50px;
-  -webkit-box-shadow:0 0 6px blue inset;
+  -webkit-box-shadow:0 0 6px #0032ff inset;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #ffffff;
@@ -98,7 +98,7 @@ body {
   padding-top: 0.2em;
   padding-bottom: 0.5em;
   text-align: center;
-  color: blue;  
+  color: #0032ff;  
 font-family: hydrophiliaiced;
 font-size: 4vw;
 font-weight: 700;
@@ -112,7 +112,7 @@ line-height: 1.2em;
 }
 
 .opening {
-  background: linear-gradient(0deg, rgba(0,0,0,0) 2%, #4174D9 5%);
+  background: linear-gradient(0deg, rgba(0,0,0,0) 2%, #0032ff 5%);
   width: -moz-fit-content;
   display: flex;
   justify-content: space-between;
@@ -191,7 +191,7 @@ text-align: 0.2em;
   font-size: 4vw;
   margin-left: 0.5em;
   margin-top: 30px;
-  color: blue;
+  color: #0032ff;
 font-family: hydrophiliaiced;
 font-weight: 700;
 font-style: normal;
@@ -208,7 +208,7 @@ font-style: normal;
 font-family:  hydrophiliaiced;
 font-weight: 700;
 font-style: normal;
-  filter: drop-shadow(2px 2px 2px blue)
+  filter: drop-shadow(2px 2px 2px #0032ff)
 }
 
   .nav-right {
@@ -250,7 +250,7 @@ font-style: normal;
   #id1 {
   font-family: 'DOSMyungjo', serif;
   font-size: 4vw;
-  color: blue;
+  color: #0032ff;
   padding-top: 0.8em;
 }
 
@@ -363,7 +363,7 @@ margin-left: 1em;
 }
 
 .opening {
-  background: linear-gradient(0deg, rgba(0,0,0,0) 2%, #4174D9 5%);
+  background: linear-gradient(0deg, rgba(0,0,0,0) 2%, #0032ff 5%);
   width: -moz-fit-content;
     display: flex;
 flex-direction: column;

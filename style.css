@@ -431,7 +431,7 @@ text-align: 0.2em;
   margin-bottom: 0.8em;
 }
 
-.work > p.opening {
+.work > p.logline {
   font-weight: 600;
   color: #FCFFCE;
   word-break: keep-all;

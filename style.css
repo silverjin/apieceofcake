@@ -30,6 +30,14 @@
     font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'DOSMyungjo';
+    src: url('media/font/DOSMyungjo.woff') format('woff');
+    font-display: swap;
+    font-style: normal;
+}
+
 body {
   height: 100%;
   overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -511,6 +519,7 @@ div{
 
 
 h1 {
+    font-family: 'DOSMyungjo', serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 43px;

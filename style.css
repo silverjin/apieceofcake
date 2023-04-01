@@ -247,10 +247,15 @@ font-style: normal;
   #id1 {
   font-family: 'DOSMyungjo', serif;
   font-size: 2.5vw;
+  color: blue;
+}
+
+  #id2 {
+  font-family: 'DOSMyungjo', serif;
+  font-size: 2.5vw;
   text-align: left;
   color: #FFFFFF;
 }
-
 
 [class*=parrot] {
   position: absolute;

@@ -738,6 +738,10 @@ footer > #arrow > a{
 
 /****PAGES****/
 
+body.moho {
+  background-color: #34B190;
+}
+
 /*annu*/
 
 body.annu {

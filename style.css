@@ -509,6 +509,10 @@ h3 {
     margin-bottom: 20px;
 }
 
+em {
+  font-family: 'DOSMyungjo', serif;
+}
+
 .work > img {
     position: relative;
     display: block;

@@ -247,6 +247,8 @@ font-style: normal;
   #id1 {
   font-family: 'DOSMyungjo', serif;
   font-size: 2.5vw;
+  text-align: left;
+  color: #FFFFFF;
 }
 
 
@@ -523,7 +525,6 @@ div{
 
 h1 {
     font-family: 'DOSMyungjo', serif;
-    font-weight: 700;
     font-size: 36px;
     line-height: 43px;
     display: block;

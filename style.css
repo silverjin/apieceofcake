@@ -369,7 +369,6 @@ margin-left: 1em;
 }
 
 .plate {
-  position: relative;
   width: -moz-fit-content;
   height: 100vh;
   margin: 0;
@@ -380,10 +379,9 @@ margin-left: 1em;
   margin: 0;
 }
 
-.plate-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.plate-img > img {
+  width: 100vw;
+  height: auto;
 }
 
 #title {

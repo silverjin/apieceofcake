@@ -409,9 +409,11 @@ margin-left: 1em;
   flex-direction: column;
   padding-top: 1em;
   justify-content: space-between;
+
 }
 
 .footer-text {
+  font-size: 18px;
   width: 100%;
   color: #ffffff;
   margin-top: -1em;

@@ -109,16 +109,16 @@ body {
 }
 
 #title { 
-  font-size: 6vw;
-  line-height: 6vw;
+  font-size: 120px;
+  line-height: 120px;
   color: #006cff; 
   font-family: hydrophiliaiced;
   font-style: normal;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 #id1 {
-  font-size: 5vw;
+  font-size: 100px;
   color: #006cff;
   font-family: 'DOSMyungjo';
   padding: 0;
@@ -137,6 +137,19 @@ body {
   justify-content: space-between;
 }
 
+#id2 {
+  font-family: hydrophiliaiced;
+  font-size: 1.2em;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+#id3 {
+  font-family: 'DOSMyungjo', serif;
+  font-size: 1.2em;
+  text-align: left;
+  color: #FFFFFF;
+}
 
 .footer-text {
   position: relative;
@@ -264,18 +277,6 @@ font-style: normal;
   margin-top: 0px;
     z-index: 600;
   }
-
-  #id2 {
-  font-family: hydrophiliaiced;
-  text-align: left;
-  color: #FFFFFF;
-}
-
-  #id3 {
-  font-family: 'DOSMyungjo', serif;
-  text-align: left;
-  color: #FFFFFF;
-}
 
 [class*=parrot] {
   position: absolute;

@@ -90,12 +90,12 @@ body {
   background: #F8F270;
 }
 
-/*** home ***/
+/****** LANDING PAGE ******/
 
 .plate {
   background: linear-gradient(0deg, white 20%, #1C60E7 60%);
   width: -moz-fit-content;
-  height: 100vh;
+  height: 100%;
   /* filter: drop-shadow(0px 0px 3px rgba(0, 85, 255, 0.46)); */
   position: relative;
 }
@@ -110,15 +110,17 @@ body {
 
 #title { 
   font-size: 6vw;
+  line-height: 6vw;
   color: #006cff; 
   font-family: hydrophiliaiced;
   font-style: normal;
+  margin-bottom: 20px;
 }
 
 #id1 {
-  font-size: 6vw;
+  font-size: 5vw;
   color: #006cff;
-  font-family: 'DOSMyungjo', serif;
+  font-family: 'DOSMyungjo';
   padding: 0;
   margin: 0;
 }
@@ -126,13 +128,6 @@ body {
 .plate img {
   height: 100vh;
   width: auto;
-}
-
-@media (max-width: 1000px) {
-  .plate img {
-    width: 50%
-    height: auto;
-  }
 }
 
 .opening {
@@ -270,8 +265,13 @@ font-style: normal;
     z-index: 600;
   }
 
-
   #id2 {
+  font-family: hydrophiliaiced;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+  #id3 {
   font-family: 'DOSMyungjo', serif;
   text-align: left;
   color: #FFFFFF;
@@ -332,13 +332,13 @@ font-style: normal;
 }
 
 
+/****** MOBILE ******/
 
 @media only screen and (max-width: 700px) {
   body {
   overflow-x: hidden; /* Hide horizontal scrollbar */
-    display: flex;
-flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
   }
 
   ::-webkit-scrollbar {
@@ -370,13 +370,25 @@ margin-left: 1em;
   padding-top: 0.5em;
   padding-bottom: 1em;
   font-size: 6vw;
-
+  height: 100%;
 
 }
 
 .plate img {
-  width:95%
+  width: 95%;
+  height: auto;
+}
 
+#title {
+  font-size: 36px;
+}
+
+#id1 {
+  font-size: 36px;
+}
+
+.footer-name {
+  display: none;
 }
 
 .opening {
@@ -426,7 +438,7 @@ text-align: 0.2em;
   
 }
   
-/*** posts ***/
+/****** POSTS ******/
 
 .work {
   height: auto;

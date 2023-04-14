@@ -95,28 +95,48 @@ body {
 .plate {
   background: linear-gradient(0deg, white 20%, #1C60E7 60%);
   width: -moz-fit-content;
-  padding-top: 0.2em;
-  padding-bottom: 0.5em;
-  text-align: center;
-  color: #0032ff;  
-font-family: hydrophiliaiced;
-font-size: 4vw;
-font-weight: 700;
-font-style: normal;
-line-height: 1.2em;
+  height: 100vh;
   /* filter: drop-shadow(0px 0px 3px rgba(0, 85, 255, 0.46)); */
+  position: relative;
 }
 
-.plate {
-  height: 100vh;
+.plate-text {
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+  width: 100%;
+  margin-left/margin-right: auto;
+}
+
+#title { 
+  font-size: 6vw;
+  color: #006cff; 
+  font-family: hydrophiliaiced;
+  font-style: normal;
+}
+
+#id1 {
+  font-size: 6vw;
+  color: #006cff;
+  font-family: 'DOSMyungjo', serif;
+  padding: 0;
+  margin: 0;
 }
 
 .plate img {
-  width:65%
+  height: 100vh;
+  width: auto;
+}
+
+@media (max-width: 1000px) {
+  .plate img {
+    width: 50%
+    height: auto;
+  }
 }
 
 .opening {
-  background: linear-gradient(0deg, rgba(0,0,0,0) 2%, #0032ff 5%);
+  background: linear-gradient(0deg, rgba(0,0,0,0) 2%, #006cff 5%);
   width: -moz-fit-content;
   display: flex;
   justify-content: space-between;
@@ -195,7 +215,7 @@ text-align: 0.2em;
   font-size: 4vw;
   margin-left: 0.5em;
   margin-top: 30px;
-  color: #0032ff;
+  color: #006cff;
 font-family: hydrophiliaiced;
 font-weight: 700;
 font-style: normal;
@@ -250,13 +270,6 @@ font-style: normal;
     z-index: 600;
   }
 
-
-  #id1 {
-  font-family: 'DOSMyungjo', serif;
-  font-size: 4vw;
-  color: #0032ff;
-  padding-top: 0.8em;
-}
 
   #id2 {
   font-family: 'DOSMyungjo', serif;

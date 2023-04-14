@@ -415,12 +415,9 @@ padding-top: 1em;
 
 .footer-text {
   width: 100%;
-   font-size: 4vw;
-    line-height: 8vw;
-      color: #ffffff;
-      margin-top: -1em;
-      margin-left: 2em;
-
+  color: #ffffff;
+  margin-top: -1em;
+  margin-left: 2em;
 }
 
 .footer-name {

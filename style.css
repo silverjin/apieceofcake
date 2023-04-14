@@ -225,7 +225,6 @@ text-align: 0.2em;
   margin-top: 30px;
   color: #006cff;
 font-family: hydrophiliaiced;
-font-weight: 700;
 font-style: normal;
   filter: drop-shadow(2px 2px 3px yellow)
 }
@@ -238,7 +237,6 @@ font-style: normal;
   margin-top: 30px;
   color: yellow;
 font-family:  hydrophiliaiced;
-font-weight: 700;
 font-style: normal;
   filter: drop-shadow(2px 2px 2px #0032ff)
 }
@@ -407,9 +405,9 @@ margin-left: 1em;
 .opening {
   background: linear-gradient(0deg, rgba(0,0,0,0) 2%, #006cff 5%);
   width: -moz-fit-content;
-    display: flex;
-flex-direction: column;
-padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1em;
   justify-content: space-between;
 }
 

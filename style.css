@@ -379,6 +379,11 @@ margin-left: 1em;
   margin: 0;
 }
 
+.plate-img {
+  width: 100vw;
+  height: auto;
+}
+
 .plate-img > img {
   width: 100vw;
   height: auto;

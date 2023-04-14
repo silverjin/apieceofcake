@@ -384,13 +384,12 @@ margin-left: 1em;
 }
 
 .plate-img > img {
-  width: 95%;
-  height: auto;
+
 }
 
 #title {
-  font-size: 36px;
-  line-height: 36px;
+  font-size: 42px;
+  line-height: 42px;
   margin: 0;
 }
 
@@ -405,7 +404,7 @@ margin-left: 1em;
 }
 
 .opening {
-  background: linear-gradient(0deg, rgba(0,0,0,0) 2%, #0032ff 5%);
+  background: linear-gradient(0deg, rgba(0,0,0,0) 2%, #006cff 5%);
   width: -moz-fit-content;
     display: flex;
 flex-direction: column;

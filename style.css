@@ -345,7 +345,7 @@ font-style: normal;
     display: none;
 }
 
-
+/*
 [class*=parrot] {
   position: absolute;
   height: 1.8em;
@@ -353,6 +353,11 @@ font-style: normal;
   background-repeat: no-repeat;
   background-size: 100% auto;
   z-index: 300;
+}
+*/
+
+[class*=parrot] {
+  display: none;
 }
 
 .nav-left {
@@ -381,10 +386,6 @@ margin-left: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.plate-img > img {
-
 }
 
 #title {
@@ -439,13 +440,12 @@ text-align: 0.2em;
 }
 
 .cakes{
-   background-image: url("plate_white_mobile.png");
- background-position: center;
-
-    background-attachment: fixed;
-    background-repeat:   no-repeat;
-    overflow-y: scroll;
-    min-height: 1000px;
+  background-image: url("plate_white_mobile.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat:   no-repeat;
+  overflow-y: scroll;
+  min-height: 1000px;
 }
   
 }

@@ -41,19 +41,15 @@
 body {
   height: 100%;
   overflow-x: hidden; /* Hide horizontal scrollbar */
+  
   font-family: 'Pretendard-Regular', sans-serif;
   font-size: var(--font-size-m);
   line-height: var(--line-height);
   overflow-y: scroll;
+  overflow-x: hidden;
   margin: 0;
-       background-image: url("https://i.imgur.com/jfkeXOe.png");
- background-position: center;
-  background-size: cover;
-    background-attachment: fixed;
-    background-repeat:   no-repeat;
-  height: 100%;
-
 }
+
 
 .snowflake {
   font-size: 3em;

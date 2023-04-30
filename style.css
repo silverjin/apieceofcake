@@ -266,6 +266,10 @@ body {
   width: auto;
 }
 
+.plate-img {
+  margin: 0;
+}
+
 .opening {
   background: linear-gradient(0deg, rgba(0,0,0,0) 2%, #006cff 5%);
   width: -moz-fit-content;

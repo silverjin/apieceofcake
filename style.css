@@ -225,6 +225,7 @@ body {
   height: 100%;
   /* filter: drop-shadow(0px 0px 3px rgba(0, 85, 255, 0.46)); */
   position: relative;
+  margin: 0;
 }
 
 .plate-text {
@@ -264,10 +265,6 @@ body {
 .plate img {
   height: 100vh;
   width: auto;
-}
-
-.plate-img {
-  margin: 0;
 }
 
 .opening {

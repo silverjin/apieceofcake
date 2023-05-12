@@ -344,6 +344,24 @@ text-align: 0.2em;
 
 }
 
+h4 {
+  font-family: 'DOSMyungjo', serif;
+  font-size: 16px;
+  line-height: 160%;
+  word-break: keep-all;
+  display: block;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 25px;
+  padding: 5px;
+  width: 145px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  color: #FFEE59;
+  background-color: #242424;
+}
+
 .nav-left {
   position: fixed;
   z-index: 999;

@@ -46,11 +46,11 @@ body {
   line-height: var(--line-height);
   overflow-y: scroll;
   margin: 0;
-       background-image: url("https://i.imgur.com/jfkeXOe.png");
- background-position: center;
+  background-image: url("https://i.imgur.com/jfkeXOe.png");
+  background-position: center;
   background-size: cover;
-    background-attachment: fixed;
-    background-repeat:   no-repeat;
+  background-attachment: fixed;
+  background-repeat:   no-repeat;
   height: 100%;
 
 }
@@ -492,6 +492,14 @@ margin-left: 0.8em;
   padding-top: 1em;
   justify-content: space-between;
 
+}
+
+.cakes {
+  background-image: url("https://i.imgur.com/jfkeXOe.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .footer-text {

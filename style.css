@@ -411,6 +411,7 @@ right: 0px;
   overflow-x: hidden; /* Hide horizontal scrollbar */
   display: flex;
   flex-direction: column;
+  background-size: cover;
   }
 
   ::-webkit-scrollbar {

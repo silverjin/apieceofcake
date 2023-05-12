@@ -441,6 +441,9 @@ margin-left: 0.8em;
 .plate-img {
   height: 90%;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .plate-img > img {

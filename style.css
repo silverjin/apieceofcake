@@ -538,6 +538,10 @@ margin-left: 0.8em;
     word-break: keep-all;
   }
 
+  .work > p{
+    font-size: 16px;
+  }
+
   .profile > img{
     position: relative;
     display: block;

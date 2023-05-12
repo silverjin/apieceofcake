@@ -494,14 +494,6 @@ margin-left: 0.8em;
 
 }
 
-.cakes {
-  background-image: url("https://i.imgur.com/jfkeXOe.png");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-
 .footer-text {
   font-size: 18px;
   width: 100%;

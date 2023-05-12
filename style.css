@@ -507,6 +507,10 @@ margin-left: 0.8em;
 
 }
 
+.cakes img {
+  width: 80%;
+}
+
 .nav-right {
   width: 30%;
   margin-right: 1.3em;

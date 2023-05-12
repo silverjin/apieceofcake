@@ -494,7 +494,7 @@ margin-left: 0.8em;
 }
 
 .footer-text {
-  font-size: 18px;
+  font-size: 16px;
   width: 100%;
   color: #ffffff;
   padding-top: 1.5em;
@@ -636,7 +636,7 @@ margin-left: 0.8em;
   color: #FCFFCE;
   text-align: left;
   display: inline-block;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 171%;
   word-break: keep-all;
   display: flex;

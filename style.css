@@ -530,6 +530,10 @@ margin-left: 0.8em;
   width: 80%;
 }
 
+h4 {
+  width: 90%;
+}
+
 .nav-right {
   width: 30%;
   margin-right: 1.3em;

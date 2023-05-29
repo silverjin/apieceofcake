@@ -46,7 +46,8 @@ body {
   line-height: var(--line-height);
   overflow-y: scroll;
   margin: 0;
-  background-image: url("https://i.imgur.com/jfkeXOe.png");
+  height: 100%;
+    background-image: url("https://i.imgur.com/jfkeXOe.png");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -61,7 +62,7 @@ body {
 }
 
 .snowflake img {
-  width: 10%;
+  width: 1em;
 }
 
  @-webkit-keyframes snowflakes-fall{
@@ -218,25 +219,29 @@ body {
 
 /****** LANDING PAGE ******/
 
+
 .plate {
+  background-color: white;
   background: linear-gradient(0deg, white 20%, #1C60E7 60%);
   width: -moz-fit-content;
-  height: 100%;
-  /* filter: drop-shadow(0px 0px 3px rgba(0, 85, 255, 0.46)); */
+  height: 100vh;
+  text-align: center;
   position: relative;
   margin: 0;
 }
 
+
+
 .plate-text {
   position: absolute;
-  bottom: 20px;
-  z-index: 999;
+  bottom: 40px;
+  z-index: 800;
   width: 100%;
   margin-left/margin-right: auto;
 }
 
 #title { 
-  font-size: 120px;
+  font-size: 6.5em;
   line-height: 120px;
   color: #006cff; 
   font-family: hydrophiliaiced;
@@ -246,7 +251,7 @@ body {
 }
 
 #id1 {
-  font-size: 100px;
+  font-size: 6.5em;
   color: #006cff;
   font-family: 'DOSMyungjo';
   padding: 0;
@@ -261,9 +266,18 @@ body {
   color: #FFFFFF;
 }
 
+#id4 {
+  font-family: hydrophiliaiced;
+  font-size: 2.5em;
+  color: #006cff; 
+  margin-top: 0.8em;
+  margin-bottom: -0.8em;
+}
+
 .plate img {
   height: 100vh;
   width: auto;
+  margin-top: -0.5em;
 }
 
 .opening {
@@ -331,18 +345,19 @@ body {
 .cakes{
   width: -moz-fit-content;
   height: 100%;
-  padding: 0.5em;
   position: relative;
-  text-align: 0.2em;
   float: left;
   text-align: center;
+  margin-top: -4em;
 }
 
 .cakes img{
-width: 40%;
+width: 50%;
 text-align: 0.2em;
+margin-bottom: -1em;
 
 }
+
 
 h4 {
   font-family: 'DOSMyungjo', serif;
@@ -362,6 +377,8 @@ h4 {
   background-color: #febcff;
   margin-top: -80px;
 }
+
+
 
 .nav-left {
   position: fixed;
@@ -386,6 +403,71 @@ font-family:  hydrophiliaiced;
 font-style: normal;
   filter: drop-shadow(2px 2px 2px #0032ff)
 }
+
+#popup {
+    display: none; /*숨기기*/
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+}
+
+#popmenu {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    height: auto;
+    text-align: center;
+    background-image: url("https://i.imgur.com/xiyO6O1.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat:   no-repeat;
+    z-index: 999;
+}
+
+#popmenu p {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 30px;
+    font-size: 1.1em;
+    line-height: 175%;
+    word-break: keep-all;
+    display: flex;
+    font-weight: 400;
+    color: #006EFF; /* Will override color (regardless of order) */
+    text-shadow: 0px 0px 10px #006EFF;
+    align-items: center;
+}
+
+#popmenu a {
+    display: block;
+    color: #006EFF; /* Will override color (regardless of order) */
+    text-shadow: 0px 0px 10px #006EFF;
+    align-items: center;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.exit {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #006EFF;
+    cursor: pointer;
+    color: white;
+    text-shadow: 0px 0px 10px #006EFF;
+    border-radius: 25px;
+}
+
 
   .nav-right {
       position: fixed;
@@ -434,6 +516,62 @@ right: 0px;
 }
 
 
+h4 {
+  width: 88%;
+  font-size: 18px;
+  margin-top: -40px;
+  margin-bottom: 0px;
+}
+
+#popup {
+      display: none; /*숨기기*/
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+  }
+
+  #popmenu {
+    background-image: url("https://i.imgur.com/xiyO6O1.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat:   no-repeat;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      width: 80%;
+      height: auto;
+      text-align: center;
+      z-index: 100;
+  }
+
+  #popmenu p {
+      margin-top: 30px;
+      margin-bottom: 50px;
+      padding: 30px;
+      font-size: 1.1em;
+      line-height: 175%;
+      word-break: keep-all;
+      display: flex;
+      font-weight: 400;
+      z-index: 100;
+  }
+
+  .exit {
+      position: absolute;
+      left: 50%;
+      bottom: 10px;
+      transform: translate(-50%,0);
+      width: 60px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      background: blue;
+      cursor: pointer;
+  }
+
 
 .nav-left {
   font-size: 7.5vw;
@@ -469,15 +607,16 @@ margin-left: 0.8em;
   height: 100%;
 }
 
+
 #title {
-  font-size: 42px;
-  line-height: 42px;
+  font-size: 1.5em;
+  line-height: 1.6em;
   margin: 0;
 }
 
 
 #id1 {
-  font-size: 36px;
+  font-size: 1.5em;
   line-height: 36px;
   margin: 0;
 }
@@ -492,7 +631,7 @@ margin-left: 0.8em;
 
 #id3 {
   font-family: 'DOSMyungjo', serif;
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-align: left;
   color: #FFFFFF;
 }
@@ -506,19 +645,26 @@ margin-left: 0.8em;
   background: linear-gradient(0deg, rgba(0,0,0,0) 2%, #006cff 5%);
   width: -moz-fit-content;
   display: flex;
+  position: relative;
   flex-direction: column;
-  padding-top: 1em;
+  padding-top: 2em;
   justify-content: space-between;
+  height: auto;
+  z-index: 50;
 
 }
 
 .footer-text {
-  font-size: 16px;
+  font-size: 18px;
   width: 100%;
   color: #ffffff;
-  padding-top: 1.5em;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+  margin-top: -2em;
+  margin-left: 2em;
+}
+
+p {
+ margin-top: -1em;
+ line-height: 1.8em;
 }
 
 .footer-name {
@@ -526,14 +672,19 @@ margin-left: 0.8em;
 
 }
 
-.cakes img {
-  width: 80%;
+
+.cakes {
+background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,183,144,1) 43%, rgba(176,130,223,1) 82%, rgba(176,130,223,1) 100%, rgba(0,98,155,1) 101%);
+height: 700vh;
+  margin-top: -6em;
 }
 
-h4 {
-  width: 90%;
-  font-size: 18px;
-  margin-top: -40px;
+.cakes img{
+  margin-top: 1em;
+width: 80%;
+text-align: 0em;
+
 }
 
 .nav-right {
@@ -553,97 +704,6 @@ h4 {
 .youtube-container {
   width: 100%;
 }
-
-  .work {
-    height: auto;
-    width: 85%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    word-break: keep-all;
-  }
-
-  .work > p{
-    font-size: 16px;
-  }
-
-  .profile > img{
-    position: relative;
-    display: block;
-    place-items: center;
-    height: auto;
-    width: 80%;
-    margin: auto;
-    z-index: 90;
-    border: 2px solid #F4FFCE;
-    border-radius: 80px;
-  }
-
-/*
-  img {
-      position: relative;
-      display: block;
-      place-items: center;
-      height: auto;
-      width: 30%;
-      margin: auto;
-      z-index: 90;
-  }
-*/
-
-  .logo-image{
-     overflow: hidden;
-     display: block;
-     position: absolute;
-     width: 320px;
-     height: 70px;
-     filter: drop-shadow(0px 0px 5px #FFFFFF);
-     margin-left: 0;
-  }
-
-  nav {
-      position: fixed;
-      top: 23px;
-      width: 300px;
-      height: 67px;
-      z-index: 100;
-      place-items: center;
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-  }
-
-  nav > ul > li > a{
-        flex:1;
-        display: block;
-        color: white;
-        font-size: 30px;
-        text-shadow: 0 0 3px #FFFFFF;
-        font-family: 'Hydrophilia Iced', sans-serif;
-        text-align: center;
-      }
-
-      footer{
-        bottom:0;
-        width:100%;
-        height: auto;
-        padding-bottom: 20px;
-        padding-top: 50px;
-        display: flex;
-        justify-content: space-between;
-        filter: drop-shadow(0px 0px 5px #FFFFFF);
-        gap: 50%;
-      }
-
-      footer > #arrow > a{
-        display: flex;
-        flex-direction: row;
-        flex: 1;
-        justify-content: space-between;
-        align-items: stretch;
-        align-content: space-between;
-        flex-wrap: wrap;
-      }
   
 }
   
@@ -665,7 +725,7 @@ h4 {
   color: #FCFFCE;
   text-align: left;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 171%;
   word-break: keep-all;
   display: flex;
@@ -808,15 +868,6 @@ h1 {
   margin: auto;
 }
 
-img {
-    position: relative;
-    display: block;
-    place-items: center;
-    height: auto;
-    width: 50%;
-    margin: auto;
-    z-index: 90;
-}
 
 
 .profile {
@@ -1099,6 +1150,95 @@ body.j {
 }
 
 
+@media ( max-width: 768px ) {
+
+
+  .work {
+    height: auto;
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    word-break: keep-all;
+  }
+
+  .profile > img{
+    position: relative;
+    display: block;
+    place-items: center;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    z-index: 90;
+    border: 2px solid #F4FFCE;
+    border-radius: 80px;
+  }
+
+  img {
+      position: relative;
+      display: block;
+      place-items: center;
+      height: auto;
+      width: 30%;
+      margin: auto;
+      z-index: 90;
+  }
+
+  .logo-image{
+     overflow: hidden;
+     display: block;
+     position: absolute;
+     width: 320px;
+     height: 70px;
+     filter: drop-shadow(0px 0px 5px #FFFFFF);
+     margin-left: 0;
+  }
+
+  nav {
+      position: fixed;
+      top: 23px;
+      width: 300px;
+      height: 67px;
+      z-index: 100;
+      place-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }
+
+  nav > ul > li > a{
+        flex:1;
+        display: block;
+        color: white;
+        font-size: 30px;
+        text-shadow: 0 0 3px #FFFFFF;
+        font-family: 'Hydrophilia Iced', sans-serif;
+        text-align: center;
+      }
+
+      footer{
+        bottom:0;
+        width:100%;
+        height: auto;
+        padding-bottom: 20px;
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        filter: drop-shadow(0px 0px 5px #FFFFFF);
+        gap: 50%;
+      }
+
+      footer > #arrow > a{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: space-between;
+        flex-wrap: wrap;
+      }
+}
+
 /*youtube*/
 
 .youtube-container {
@@ -1123,3 +1263,4 @@ body.j {
   width: 100%;
   height: 100%;
 }
+

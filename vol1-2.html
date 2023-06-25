@@ -22,8 +22,21 @@
     </div>
     <div class="nav-right">
         <img src="https://i.imgur.com/lGwQfUf.png" width="100%;">
-        <a href="#top"><img class="img-top" src="https://i.imgur.com/0zuUFqR.png"></a>
+        <div id="contents"><img class="img-top" src="https://i.imgur.com/0zuUFqR.png"></div>
       </div>
+
+        <div id="popup">
+      <div id="popmenu">
+        <h1 id="id4">About</h1>
+          <p> A Piece of Cake는 불완전한 존재들이 삶을 살아가며 겪는 결코 쉽지 않은 일들에 대해 작은 담론을 나누고자 마련된 계간 웹진입니다.<br>
+          삼키고 소화하기 쉽지 않은 삶의 고충들을 담은 저희의 이야기가 다소 쌉쌀할 수도, 또는 오히려 예상보다 조금 더 가볍고 달큰할지도 모르겠습니다.<br>
+          당신이 가진 이야기 한 조각은 무슨 맛인가요?<br>
+          새로운 조각을 공유해 주시길 기다리고 있겠습니다.<br><br>
+          💌 apieceofcake.kr@gmail.com<br><br></p>
+          <div class="exit">닫기</div>
+      </div>
+  </div>
+
   </header>
 
   <div class="post-cake">
@@ -86,5 +99,32 @@
   <script src="index.js"></script>
   <script src="script.js"></script>
 </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+
+    //<![CDATA[
+
+    $(document).ready(function() {
+
+        $("#contents").click(function() {
+
+            $("#popup").fadeIn();
+
+        });
+
+        $(".exit").click(function() {
+
+            $("#popup").fadeOut();
+
+        });
+
+    });
+
+    //]]>
+
+</script>
+
 
 </html>

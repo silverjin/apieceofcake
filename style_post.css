@@ -50,6 +50,11 @@ body {
   margin: 0;
 }
 
+.work > p.point {
+  font-weight: 600;
+  color: #FCFFCE;
+  word-break: keep-all;
+}
 
 .snowflake {
   font-size: 3em;
@@ -262,6 +267,7 @@ body {
   width: auto;
 }
 
+
 .opening {
   background: linear-gradient(0deg, rgba(0,0,0,0) 2%, #006cff 5%);
   width: -moz-fit-content;
@@ -342,6 +348,15 @@ text-align: 0.2em;
 
 }
 
+#id4 {
+  font-family: hydrophiliaiced;
+  font-size: 2.5em;
+  color: #006cff; 
+  margin-top: 0.8em;
+  margin-bottom: -0.8em;
+}
+
+
 .nav-left {
   position: fixed;
   z-index: 999;
@@ -365,6 +380,71 @@ font-family:  hydrophiliaiced;
 font-style: normal;
   filter: drop-shadow(2px 2px 2px #0032ff)
 }
+
+#popup {
+    display: none; /*숨기기*/
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+}
+
+#popmenu {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    height: auto;
+    text-align: center;
+    background-image: url("https://i.imgur.com/xiyO6O1.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat:   no-repeat;
+    z-index: 999;
+}
+
+#popmenu p {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 30px;
+    font-size: 1.1em;
+    line-height: 175%;
+    word-break: keep-all;
+    display: flex;
+    font-weight: 400;
+    color: #006EFF; /* Will override color (regardless of order) */
+    text-shadow: 0px 0px 10px #006EFF;
+    align-items: center;
+}
+
+#popmenu a {
+    display: block;
+    color: #006EFF; /* Will override color (regardless of order) */
+    text-shadow: 0px 0px 10px #006EFF;
+    align-items: center;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.exit {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #006EFF;
+    cursor: pointer;
+    color: white;
+    text-shadow: 0px 0px 10px #006EFF;
+    border-radius: 25px;
+}
+
 
   .nav-right {
       position: fixed;
@@ -400,6 +480,10 @@ right: 0px;
     z-index: 600;
   }
 
+  .post-cake > img {
+  width: 52%;
+}
+
 /****** MOBILE ******/
 @media only screen and (max-width: 700px) {
   body {
@@ -412,6 +496,56 @@ right: 0px;
     display: none;
 }
 
+
+
+#popup {
+      display: none; /*숨기기*/
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+  }
+
+  #popmenu {
+    background-image: url("https://i.imgur.com/xiyO6O1.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat:   no-repeat;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      width: 80%;
+      height: auto;
+      text-align: center;
+      z-index: 100;
+  }
+
+  #popmenu p {
+      margin-top: 30px;
+      margin-bottom: 50px;
+      padding: 30px;
+      font-size: 1.1em;
+      line-height: 175%;
+      word-break: keep-all;
+      display: flex;
+      font-weight: 400;
+      z-index: 100;
+  }
+
+  .exit {
+      position: absolute;
+      left: 50%;
+      bottom: 10px;
+      transform: translate(-50%,0);
+      width: 60px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      background: blue;
+      cursor: pointer;
+  }
 
 
 .nav-left {
@@ -508,11 +642,11 @@ margin-left: 0.8em;
 
 
 .post-cake {
-  padding-top: 100px;
+  margin-top: 3em;
 }
 
 .post-cake > img {
-  width: 80%;
+  width: 100%;
 }
 
 .youtube-container {
@@ -530,6 +664,7 @@ margin-left: 0.8em;
   margin-left: auto;
   margin-right: auto;
   word-break: keep-all;
+  margin-top: -3em;
 }
 
 
@@ -904,7 +1039,7 @@ body.annu {
 /*jinsim*/
 
 body.jinsim {
-  background-color: #A88CDA;
+  background-color: #ae6edb;
 }
 
 .jinsim > h1{
@@ -1002,7 +1137,7 @@ body.j {
       display: block;
       place-items: center;
       height: auto;
-      width: 30%;
+      width: 3s0%;
       margin: auto;
       z-index: 90;
   }

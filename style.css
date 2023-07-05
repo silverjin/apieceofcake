@@ -558,6 +558,16 @@ h4 {
       z-index: 100;
   }
 
+  #popmenu a {
+    display: block;
+    color: #006EFF; /* Will override color (regardless of order) */
+    text-shadow: 0px 0px 10px #006EFF;
+    align-items: center;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
   .exit {
       position: absolute;
       left: 50%;

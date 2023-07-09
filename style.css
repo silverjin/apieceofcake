@@ -615,8 +615,10 @@ margin-left: 0.8em;
 }
 
 .plate-img > img {
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
+  margin-top: 32%;
+  margin-bottom: 23%;
 }
 
 

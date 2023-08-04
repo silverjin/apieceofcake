@@ -232,7 +232,6 @@ body {
 }
 
 
-
 .plate-text {
   position: absolute;
   bottom: 40px;
@@ -587,17 +586,19 @@ margin-left: 0.8em;
 
 .plate {
   width: -moz-fit-content;
-  height: 100vh;
-  margin: 0;
+  height: 100%;
+  margin:0;
 }
 
 .plate-text {
+position: absolute;
   font-size: 6vw;
-  margin: 0;
+  margin:0;
+
 }
 
 .plate-img {
-  height: 90%;
+  width: 100%;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -605,10 +606,10 @@ margin-left: 0.8em;
 }
 
 .plate-img > img {
-  width: 115%;
+  width: 100%;
   height: auto;
-  margin-top: 32%;
-  margin-bottom: 23%;
+  margin-top: 25%;
+  margin-bottom: 30%;
 }
 
 
@@ -660,7 +661,7 @@ margin-left: 0.8em;
 
 .footer-text {
   font-size: 18px;
-  width: 100%;
+  width: 90%;
   color: #ffffff;
   margin-top: -2em;
   margin-left: 2em;

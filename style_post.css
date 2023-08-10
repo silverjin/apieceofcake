@@ -50,6 +50,31 @@ body {
   margin: 0;
 }
 
+figure {
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  color: #eeeeee;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+figure > img {
+    position: relative;
+    display: block;
+    place-items: center;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    z-index: 90;
+    border: 2px solid #F4FFCE;
+    border-radius: 113px;
+    margin: 10px 0 10px;
+}
+
 .work > p.point {
   font-weight: 600;
   color: #FCFFCE;

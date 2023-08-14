@@ -542,7 +542,7 @@ h4 {
       left: 50%;
       top: 50%;
       transform: translate(-50%,-50%);
-      width: 80%;
+      width: 70%;
       height: auto;
       text-align: center;
       z-index: 100;
@@ -552,7 +552,7 @@ h4 {
       margin-top: 30px;
       margin-bottom: 50px;
       padding: 30px;
-      font-size: 1.1em;
+      font-size: 0.8em;
       line-height: 175%;
       word-break: keep-all;
       display: flex;

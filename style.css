@@ -762,7 +762,7 @@ position: absolute;
   color: #ffffff;
   margin-top: -3em;
   margin-left: 2em;
-  margin-bottom: 1em;
+  margin-bottom: 2.5em;
 }
 
 p {
@@ -784,7 +784,7 @@ height: 700vh;
 }
 
 .cakes-folder {
-  margin-top: 3.5em;
+  margin-top: 4em;
 }
 
 .cakes img{

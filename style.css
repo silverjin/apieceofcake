@@ -759,8 +759,9 @@ position: absolute;
   font-size: 18px;
   width: 90%;
   color: #ffffff;
-  margin-top: -2em;
+  margin-top: -3em;
   margin-left: 2em;
+ margin-bottom: 1em;
 }
 
 p {
@@ -779,6 +780,10 @@ background: rgb(2,0,36);
 background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,183,144,1) 43%, rgba(176,130,223,1) 82%, rgba(176,130,223,1) 100%, rgba(0,98,155,1) 101%);
 height: 700vh;
   margin-top: -6em;
+}
+
+.cakes-folder {
+  margin-top: 3em;
 }
 
 .cakes img{

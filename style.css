@@ -588,6 +588,7 @@ right: 0px;
   display: flex;
   flex-direction: column;
   background-image: none;
+  background-color: rgb(2,0,36);
   }
 
 
@@ -761,7 +762,6 @@ position: absolute;
   color: #ffffff;
   margin-top: -3em;
   margin-left: 2em;
- margin-bottom: 1em;
 }
 
 p {

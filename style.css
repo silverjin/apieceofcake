@@ -218,6 +218,31 @@ body {
   background: #F8F270;
 }
 
+.announcements{
+    background-color: #1C60E7;
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    padding: 10px;
+    bottom: -1.9em;
+    display: flex;
+    z-index: 999;
+}
+
+.announcements .ticker{
+   padding: 5px 10px;
+   color: #1C60E7;
+   position: relative;
+   font-size: 19px;
+      background-color: #fff000;
+      font-family: hydrophiliaiced;
+
+}
+.announcements .news-content p{
+  display: inline;
+  color: #fff;
+}
+
 /****** LANDING PAGE ******/
 
 
@@ -267,6 +292,14 @@ body {
 }
 
 #id4 {
+  font-family: hydrophiliaiced;
+  font-size: 2.5em;
+  color: #006cff; 
+  margin-top: 0.8em;
+  margin-bottom: -0.8em;
+}
+
+#id5 {
   font-family: hydrophiliaiced;
   font-size: 2.5em;
   color: #006cff; 
@@ -392,12 +425,7 @@ font-style: normal;
   filter: drop-shadow(2px 2px 3px yellow)
 }
 
-.nav-left:hover {
-  position: fixed;
-  z-index: 999;
-  font-size: 5vw;
-  margin-left: 0.5em;
-  margin-top: 30px;
+.nav-left a:hover {
   color: yellow;
 font-family:  hydrophiliaiced;
 font-style: normal;
@@ -418,7 +446,7 @@ font-style: normal;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    width: 30%;
+    width: 35%;
     height: auto;
     text-align: center;
     background-image: url("https://i.imgur.com/xiyO6O1.png");
@@ -430,17 +458,17 @@ font-style: normal;
 }
 
 #popmenu p {
-    margin-top: 30px;
+    margin-top: 1em;
     margin-bottom: 50px;
     padding: 30px;
-    font-size: 1.1em;
+    font-size: 1.2em;
     line-height: 175%;
     word-break: keep-all;
-    display: flex;
     font-weight: 400;
     color: #006EFF; /* Will override color (regardless of order) */
     text-shadow: 0px 0px 10px #006EFF;
     align-items: center;
+    text-align: center;
 }
 
 #popmenu a {
@@ -464,7 +492,21 @@ font-style: normal;
     background: #006EFF;
     cursor: pointer;
     color: white;
-    text-shadow: 0px 0px 10px #006EFF;
+    border-radius: 25px;
+}
+
+.exit:hover {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%,0);
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: yellow;
+    cursor: pointer;
+    color: #006EFF;
     border-radius: 25px;
 }
 
@@ -504,6 +546,42 @@ right: 0px;
   }
 
 /****** MOBILE ******/
+
+@media only screen and (max-width: 1000px) {
+#popup {
+      display: none; /*숨기기*/
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+  }
+
+  #popmenu {
+    background-image: url("https://i.imgur.com/xiyO6O1.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat:   no-repeat;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      width: 50%;
+      height: auto;
+      text-align: center;
+      z-index: 100;
+  }
+
+  #popmenu p {
+      font-size: 1.2em;
+      line-height: 175%;
+      word-break: keep-all;
+      font-weight: 400;
+      z-index: 100;
+      text-align: center;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   body {
   overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -511,6 +589,18 @@ right: 0px;
   flex-direction: column;
   background-image: none;
   }
+
+
+.snowflake {
+  font-size: 2.2em;
+  font-family: Arial;
+  text-shadow: 0 0 3px #ffffff;
+}
+
+.snowflake img {
+  width: 1.2em;
+}
+
 
   ::-webkit-scrollbar {
     display: none;
@@ -522,6 +612,14 @@ h4 {
   font-size: 18px;
   margin-top: -40px;
   margin-bottom: 0px;
+}
+
+#id5 {
+  font-family: hydrophiliaiced;
+  font-size: 1.8em;
+  color: #006cff; 
+  margin-top: 0.8em;
+  margin-bottom: -0.8em;
 }
 
 #popup {
@@ -549,13 +647,11 @@ h4 {
   }
 
   #popmenu p {
-      margin-top: 30px;
-      margin-bottom: 50px;
       padding: 30px;
-      font-size: 0.8em;
+      margin-top: 0.5em;
+      font-size: 1em;
       line-height: 175%;
       word-break: keep-all;
-      display: flex;
       font-weight: 400;
       z-index: 100;
   }

@@ -226,7 +226,7 @@ body {
     padding: 10px;
     bottom: -1.9em;
     display: flex;
-    z-index: 999;
+    z-index: 990;
 }
 
 .announcements .ticker{
